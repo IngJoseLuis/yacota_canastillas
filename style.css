@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+.formulario-container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 320px;
+}
+#canastillaForm{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.logo{
+  width: 320px;
+  height: auto;
+}
+h1{
+  color: rgb(110, 110, 110);
+  font-size: 20px;
+}
+
+select, input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #bbbbbb;
+  color: #474747;
+}
+select:focus, input:focus {
+  outline: none; 
+}
+.patron{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.rojo{
+  background-color: #ff0000;
+  height: 20px;
+  width: 34%;
+}
+.naranja{
+  background-color: #ff6600;
+  height: 20px;
+  width: 34%;
+}
+.amarillo{
+  background-color: #ffe100;
+  height: 20px;
+  width: 34%;
+}
+label{
+  color: #7c7c7c;
+  font-size: 13px;
+}
+.content_inputs{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+button{
+  width: 320px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  margin: 2rem 0;
+}
+.boton_gracias{
+  width: 320px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ff6600;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: -0.3rem;
+}
+
+.canastilla{
+  height: 250px;
+}
+.gracias{
+font-size: 50px;
+font-weight: 700;
+color: rgb(93, 93, 93);
+}
+.gracias_text{
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(93, 93, 93);
+  margin-top: -3rem;
+}
+#canastilla{
+  width: 200px;
+  margin-top: -1.5rem;
+}
